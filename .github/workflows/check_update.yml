@@ -1,0 +1,30 @@
+name: Check Update
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Run script
+      run: python .github/update_info.py
+
+    - name: Commit report
+      run: |
+        git config --global user.name 'Seedgou'
+        git config --global user.email 'i@zczc.cz'
+        git commit -am "Update info @ $(date)"
+        git push
