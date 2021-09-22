@@ -23,8 +23,4 @@ jobs:
       run: python .github/update_info.py
 
     - name: Commit report
-      run: |
-        git config --global user.name 'Seedgou'
-        git config --global user.email 'i@zczc.cz'
-        git commit -am "Update info @ $(date)"
-        git push
+      run: bash .github/push_info.sh
