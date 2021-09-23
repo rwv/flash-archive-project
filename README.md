@@ -17,3 +17,7 @@ SWF 文件: [https://flash-swf.zczc.cz/`{sha256}`.swf](https://flash-swf.zczc.cz
 ## 统计数据
 
 参见 [统计 - Flash 保存计划](https://flash.zczc.cz/stats)
+
+## 许可
+
+本项目采用[知识共享署名-相同方式共享 4.0 国际许可协议 (CC BY-SA 4.0) ](https://creativecommons.org/licenses/by-sa/4.0/)进行许可。
