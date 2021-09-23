@@ -2,6 +2,8 @@
 
 ⚡ 保存闪客时代的一些记录。
 
+在线查看: [https://flash.zczc.cz/](https://flash.zczc.cz/)
+
 ## 数据来源
 * [Internet Archive Wayback Machine](https://archive.org/web/)
 * [闪客帝国](http://flashempire.com/)
