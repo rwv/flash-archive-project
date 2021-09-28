@@ -7,7 +7,7 @@
 ## 数据来源
 * [Internet Archive Wayback Machine](https://archive.org/web/)
 * [闪客帝国](http://flashempire.com/)
-* [闪吧](http://www.flash8.net/)
+* [闪吧](http://www.flash8.net/)(由 [@deluxghost](https://github.com/deluxghost) 收集)
 
 ## 获取文件
 
